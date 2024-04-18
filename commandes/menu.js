@@ -57,7 +57,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let menuMsg=`  
 
-*MEGATRON-BOT COMMANDS :*
+*MEOW-BOT COMMANDS :*
 ◇                             ◇
 `;
 
