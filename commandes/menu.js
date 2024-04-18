@@ -43,7 +43,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────𖤍𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍-𝐁𝐎𝐓𖤍────◆
+╭────MEOW-𝐁𝐎𝐓𖤍────◆
 │𖤍 *Préfix* : ${s.PREFIXE}
 │𖤍 *User* : ${s.OWNER_NAME}
 │𖤍 *Mode* : ${mode}
@@ -53,7 +53,7 @@ const date = moment().format('DD/MM/YYYY');
 │𖤍 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │𖤍 *Platform* : Linux 
 │𖤍 *Uptime*: ${runtime(process.uptime())}
-╰─────✞🩸𝐊𝚰𝚳𝚳𝐘𓃵𖤍🔥³¹⁶─────◆ \n\n`;
+╰─────✞𝙃𝙤𝙥𝙚³¹⁶─────◆ \n\n`;
 
   let menuMsg=`  
 
@@ -75,7 +75,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *𖤍 ༒𝐃𝚫𝚳𝚯𝚴𖤍༒³¹⁶*                                         
+  *𖤍 ༒𝔄𝔪𝔢𝔫༒³¹⁶*                                         
 *╰═════════════⊷*
 `;
 
