@@ -55,8 +55,8 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "💞" }, async (de
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Damon", numero: "254790593618" },
-      { nom: "᚛Damon᚜", numero: "254102350531" },
+      { nom: "Hope", numero: "917065844587" },
+      { nom: "᚛Hope᚜", numero: "917065844587" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
@@ -95,7 +95,7 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/254790593618`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/917065844587`},{quoted :ms})
 
 })
 
