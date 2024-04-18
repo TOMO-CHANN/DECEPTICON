@@ -121,7 +121,7 @@ zokou({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, as
         if (zkad) {
           if (membre) {
             if (admin == false) {
-              var txt = `🎊🍾  @${auteurMsgRepondu.split("@")[0]} Has been promoted as a group Admin by 𝛫𝛪𝛭𝛭𝑌.`
+              var txt = `🎊🍾  @${auteurMsgRepondu.split("@")[0]} Nigga, be proud.`
               await zk.groupParticipantsUpdate(dest, [auteurMsgRepondu], "promote");
               zk.sendMessage(dest, { text: txt, mentions: [auteurMsgRepondu] })
             } else { return repondre("This member is already an admin.") }
@@ -186,7 +186,7 @@ zokou({ nomCom: "demote", categorie: 'Group', reaction: "👨🏿‍💼" }, asy
               repondre("This crap of a c*m is not an admin.")
 
             } else {
-              var txt = `@${auteurMsgRepondu.split("@")[0]} was removed from his position as a group admin\n`
+              var txt = `@${auteurMsgRepondu.split("@")[0]} Useless brat\n`
               await zk.groupParticipantsUpdate(dest, [auteurMsgRepondu], "demote");
               zk.sendMessage(dest, { text: txt, mentions: [auteurMsgRepondu] })
             }
@@ -411,18 +411,18 @@ zokou({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) 
       if(arg[0] === 'on') {
 
       
-       if(enetatoui ) { repondre("the antilink is already activated for this group")
+       if(enetatoui ) { repondre("the antilink is already on")
                     } else {
                   await ajouterOuMettreAJourJid(dest,"oui");
                 
-              repondre("the antilink is activated successfully") }
+              repondre("Oke") }
      
             } else if (arg[0] === "off") {
 
               if (enetatoui) { 
                 await ajouterOuMettreAJourJid(dest , "non");
 
-                repondre("The antilink has been successfully deactivated");
+                repondre("The antilink has been Off");
                 
               } else {
                 repondre("antilink is not activated for this group");
