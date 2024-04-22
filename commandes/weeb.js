@@ -135,7 +135,7 @@ zokou({nomCom:"couplepp",categorie: "Weeb",reaction : "💞"},async(dest,zk,comm
   
 
     zk.sendMessage(dest, { image: { url: result.data.male }, caption: `It's for man` }, { quoted: ms })
-        zk.sendMessage(dest, { image: { url: result.data.female }, caption: ` Ans this for princess` }, { quoted: ms })
+        zk.sendMessage(dest, { image: { url: result.data.female }, caption: ` And this for princess` }, { quoted: ms })
     
   } catch (e) { repondre(e)}                                                                                        
   
