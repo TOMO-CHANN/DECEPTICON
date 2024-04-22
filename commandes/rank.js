@@ -128,7 +128,7 @@ zokou( {
          } else if ( data.level >= 40 || data.level < 45 ) {
             role = 'Hermit seinin'
          } else if ( data.level >= 45 || data.level < 50 ) {
-            role = 'God-Otsusuki'
+            role = 'Otsusuki'
          } else {
             role = 'GOD'
          }
