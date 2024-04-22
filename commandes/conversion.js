@@ -71,7 +71,7 @@ const alea = (ext) => {
 
     sticker = new Sticker(buffer, {
       pack:"| 𝚮𝗼𝗽𝗲 |",
-      author: ,
+      author: nomAuteurMessage,
       type:
         arg.includes("crop") || arg.includes("c")
           ? StickerTypes.CROPPED
@@ -95,7 +95,7 @@ const alea = (ext) => {
 
     sticker = new Sticker(buffer, {
       pack:"| 𝚮𝗼𝗽𝗲 |", // pack stick
-      author:  , // name of the author of the stick
+      author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
           ? StickerTypes.CROPPED
